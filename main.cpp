@@ -1,7 +1,7 @@
 #include <iostream>
 
 // Function to calculate the summation of two numbers
-double mutli(double a, double b) {
+double multi(double a, double b) {
     return a * b;
 }
 
