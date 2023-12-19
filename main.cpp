@@ -1,8 +1,8 @@
 #include <iostream>
 
 // Function to calculate the summation of two numbers
-double sum(double a, double b) {
-    return a + b;
+double division(double a, double b) {
+    return a / b;
 }
 
 
@@ -16,7 +16,7 @@ int main() {
 
     // Perform operations and print results
 
-    std::cout << "Operation: " << sum(num1, num2) << std::endl;
+    std::cout << "Operation: " << division(num1, num2) << std::endl;
     return 0;
 
   
