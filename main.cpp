@@ -1,7 +1,6 @@
 #include <iostream>
 
 // Function to calculate the summation of two numbers
-
 double multi(double a, double b) {
     return a * b;
 }
@@ -17,7 +16,7 @@ int main() {
 
     // Perform operations and print results
 
-    std::cout << "Operation: " << division(num1, num2) << std::endl;
+    std::cout << "Operation: " << multi(num1, num2) << std::endl;
     return 0;
 
   
